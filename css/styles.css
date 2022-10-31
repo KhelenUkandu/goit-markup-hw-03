@@ -45,13 +45,17 @@ body {
 	width: 1200px;
 	padding-left: 15px;
 	padding-right: 15px;
-	padding-top: 94px;
-	padding-bottom: 94px;
+	margin: 0 auto;
 	
 }
 
+
+
 /* Header */
 .header {
+	padding-top: 0;
+	padding-bottom: 0;
+
 	border-style: solid;
 	border-color: #ECECEC;;
 	border-right-width: 0;
@@ -60,10 +64,7 @@ body {
 	border-bottom-width: 1px;
 
 }
-.container.header {
-	padding-top: 0;
-	padding-bottom: 0;
-}
+
 
 /* Logo */
 
@@ -78,7 +79,7 @@ body {
 
 	font-weight: 700;
 	font-size: 26px;
-	line-height: 1.19px;
+	line-height: 1.19;
 	letter-spacing: 0.03em;
 }
 
@@ -146,7 +147,9 @@ body {
 
 /* Hero */
 .hero {
-background-color: var(--second-bcg-color);
+	padding-top: 94px;
+	padding-bottom: 94px;
+	background-color: var(--second-bcg-color);
 }
 
 .hero-title {
@@ -182,6 +185,11 @@ background-color: var(--second-bcg-color);
 	letter-spacing: 0.06em;
 }
 /* Sections */
+
+.section {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
 
 .section-title {
 	margin-bottom: 50px;
@@ -270,6 +278,7 @@ border-radius: 0px 0px 4px 4px;
 .team {
 	display: flex;
 	gap: var(--indent);
+
 }
 
 .team-title {
@@ -293,11 +302,8 @@ border-radius: 0px 0px 4px 4px;
 
 /* Footer */
 
-.footer-bgc {
+.footer {
 	background-color: var(--second-bcg-color);
-}
-
-.container.footer {
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
